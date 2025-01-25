@@ -15,17 +15,17 @@ i:
 ##################################################
 '''
 Q2:
-a:  
-b:  
-c:  
-d: 
-e: 
-f: 
-g: 
-h: 
-i: 
-j: 
-k: 
+a:  y > 0
+b:  Z != 0
+c:  y > z
+d:  z >= 0
+e:  abs(y - x) < abs(z - x)
+f:  z % 2 == 1
+g:  x % 2 == 0
+h:  y % z == 0
+i:  10 > y >= 0
+j:  x == -z
+k:  x % 2 == 0 and y % 2 != 0 or x % 2 != 0 and y % 2 == 0
 '''
 
 ##################################################
@@ -38,7 +38,7 @@ number = int(input('Give me a number: '))
 if number % 2 == 0:
     if number % 3 == 0:
         print("Divisible by 6.")
-    else:
-        print("Odd number.")
+else:
+    print("Odd number.")
 
 ##################################################

@@ -1,4 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=17860326&assignment_repo_type=AssignmentRepo)
+
 # 404B Lesson 3 Class Exercise - If/Else Conditionals
 
 ## Instructions
@@ -17,14 +18,14 @@ The output will be shown in the `Terminal` tab at the bottom of the editor.
 
 ## Relational Operators
 
-| Operator | Meaning | Example | Value |
-| ----------- | ----------- | ----------- | ----------- |
-| == | Equal to | 2 + 2 == 4 | True
-| != | Not equal to | 3.2 != 4 | False
-| < | Less than | 4 < 3 | False
-| > | Greater than | 4 > 3 | True
-| <= | Less than or equal to | 2 <= 0 | False
-| >= | Greater than or equal to | 2.4 >= 1.6 | True
+| Operator | Meaning                  | Example    | Value |
+| -------- | ------------------------ | ---------- | ----- |
+| ==       | Equal to                 | 2 + 2 == 4 | True  |
+| !=       | Not equal to             | 3.2 != 4   | False |
+| <        | Less than                | 4 < 3      | False |
+| >        | Greater than             | 4 > 3      | True  |
+| <=       | Less than or equal to    | 2 <= 0     | False |
+| >=       | Greater than or equal to | 2.4 >= 1.6 | True  |
 
 ## Truth Table
 
@@ -55,48 +56,48 @@ if age >= 13 and age < 65:
 
 1. Given the variable declarations:
 
-    ```python
-    x = 4
-    y = -3
-    z = 4
-    ```
+   ```python
+   x = 4
+   y = -3
+   z = 4
+   ```
 
    What are the results of the following relational expressions?
 
-    | Question | Expressions | Answer |
-    | :-- | :-- | :--: |
-    | a | x == 4 | **True**
-    | b | x == y |
-    | c | x == z |
-    | d | y == z |
-    | e | x + y > 0 |
-    | f | x - z != 0 |
-    | g | x % 2 == 0 |
-    | h | y / y == 1|
-    | i | x *(y + 2) > y - (y + z)* 2 |
+   | Question | Expressions                 |  Answer  |
+   | :------- | :-------------------------- | :------: |
+   | a        | x == 4                      | **True** |
+   | b        | x == y                      |          |
+   | c        | x == z                      |          |
+   | d        | y == z                      |          |
+   | e        | x + y > 0                   |          |
+   | f        | x - z != 0                  |          |
+   | g        | x % 2 == 0                  |          |
+   | h        | y / y == 1                  |          |
+   | i        | x _(y + 2) > y - (y + z)_ 2 |          |
 
 2. Translate the following statements into logical tests that could be used in an if/else statement
 
-    | Question | Condition | Expression |
-    | :-- | :-- | :--: |
-    | a | y is positive | **y > 0**
-    | b | z is not zero |
-    | c | y is greater in value than z |
-    | d | z is non-negative |
-    | e | x is closer in value to y than z is |
-    | f | z is odd |
-    | g | x is even |
-    | h | y is a multiple of z |
-    | i | y is a non-negative one-digit number |
-    | j | x and z are of opposite signs |
-    | k | either x or y is even, and the other is odd |
+   | Question | Condition                                   | Expression |
+   | :------- | :------------------------------------------ | :--------: |
+   | a        | y is positive                               | **y > 0**  |
+   | b        | z is not zero                               |            |
+   | c        | y is greater in value than z                |            |
+   | d        | z is non-negative                           |            |
+   | e        | x is closer in value to y than z is         |            |
+   | f        | z is odd                                    |            |
+   | g        | x is even                                   |            |
+   | h        | y is a multiple of z                        |            |
+   | i        | y is a non-negative one-digit number        |            |
+   | j        | x and z are of opposite signs               |            |
+   | k        | either x or y is even, and the other is odd |            |
 
 3. Examine the code and describe a case in which the code would print something that is untrue about the number that was entered.\
    Then correct the logic error in the code.
 
    ```python
    number = int(input('Give me a number: '))
-   
+
    if number % 2 == 0:
        if number % 3 == 0:
            print("Divisible by 6.")
@@ -106,22 +107,22 @@ if age >= 13 and age < 65:
 
 ## Submitting Your Work
 
-1. Make sure the assignment repository is opened in VS Code.
+1.  Make sure the assignment repository is opened in VS Code.
 
-2. Make sure you have completed all the tasks.
+2.  Make sure you have completed all the tasks.
 
-3. (First time only)
-Use Command + J to open the Terminal tab and config your git username and email:
+3.  (First time only)
+    Use Command + J to open the Terminal tab and config your git username and email:
 
-    ```bash
-    git config user.name "Your Name"
-    git config user.email "Your GitHub Email"
-    ```
+        ```bash
+        git config user.name "Your Name"
+        git config user.email "Your GitHub Email"
+        ```
 
-4. Click on the "Source Control" icon on the left. Source Control
+4.  Click on the "Source Control" icon on the left. Source Control
 
     ![1](https://github.com/BlueinnoClassroom/404B-L2.1-Template/assets/155412668/2c31026e-c14d-484f-bb9e-dc87189a0216)
 
-5. Enter a commit message and click on the "Commit" button.
+5.  Enter a commit message and click on the "Commit" button.
 
 Click on the "Sync Changes" button.
